@@ -32,6 +32,8 @@ class Transfer
       @receiver.withdrawal(@amount)
       @sender.deposit(@amount)
       @status = "reversed"
+    else 
+      "Transfer has not yet executed."
     end 
   end
   
