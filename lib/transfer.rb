@@ -1,3 +1,6 @@
 class Transfer
-  # your code here
-end
+  
+  def initialize
+    
+  end
+end   
