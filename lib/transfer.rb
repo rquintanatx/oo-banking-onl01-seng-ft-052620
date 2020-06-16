@@ -1,6 +1,7 @@
 class Transfer
+  attr_reader :sender
   
-  def initialize(send_bank, recv_bank, amt)
-    
+  def initialize(sender, recv_bank, amt)
+    @sender = sender
   end
 end   
